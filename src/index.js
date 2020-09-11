@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Parent from './Parent';
+import Calculator from './Calculator';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+	<div class="topnav">
+		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/">Home</a>
+		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/products">Products</a>
+		<a href="http://reacts3testaws.s3-website.us-east-2.amazonaws.com/">React</a>
+	</div>
+    <Parent />
+	<Calculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
