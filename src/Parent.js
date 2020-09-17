@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Child } from './Child';
 import { Sibling } from './Sibling';
 
@@ -26,4 +27,3 @@ export default class Parent extends React.Component {
       </div>
     );
   }
-}

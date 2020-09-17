@@ -12,6 +12,7 @@ ReactDOM.render(
 		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/">Home</a>
 		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/products">Products</a>
 		<a href="http://reacts3testaws.s3-website.us-east-2.amazonaws.com/">React</a>
+		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/weather">Async Weather</a>
 	</div>
     <Parent />
 	<Calculator />
