@@ -5,17 +5,13 @@ import Parent from './Parent';
 import Calculator from './Calculator';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import Files from './Files';
 
 ReactDOM.render(
   <React.StrictMode>
-	<div class="topnav">
-		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/">Home</a>
-		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/products">Products</a>
-		<a href="http://reacts3testaws.s3-website.us-east-2.amazonaws.com/">React</a>
-		<a href="http://javaecommerceweb.us-east-2.elasticbeanstalk.com/weather">Async Weather</a>
-	</div>
     <Parent />
 	<Calculator />
+	<Files />
   </React.StrictMode>,
   document.getElementById('root')
 );
